@@ -1,3 +1,5 @@
+# Draw a square
+
 from turtle import Turtle, Screen
 
 timmy = Turtle()

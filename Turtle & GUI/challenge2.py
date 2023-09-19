@@ -1,3 +1,5 @@
+# Draw a dashed line
+
 from turtle import Turtle, Screen
 
 timmy = Turtle()

@@ -1,3 +1,5 @@
+# Draw different shapes with different colors
+
 from turtle import Turtle, Screen
 import random
 

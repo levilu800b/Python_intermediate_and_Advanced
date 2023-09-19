@@ -1,11 +1,11 @@
 # Generate a random walk
-import turtle
-from turtle import Turtle, Screen
+
+import turtle as t
 import random
 
 
-timmy = Turtle()
-turtle.colormode(255)
+timmy = t.Turtle()
+t.colormode(255)
 
 def random_color():
     r = random.randint(0, 255)
@@ -24,5 +24,5 @@ for _ in range(1000):
     timmy.forward(30)
     timmy.setheading(random.choice(directions))
 
-screen = Screen()
+screen = t.Screen()
 screen.exitonclick()

@@ -28,3 +28,11 @@
 #
 # To keep this exercise simple, count any punctuation following a word with no whitespace as part of the word. Note
 # that "Swallow?" therefore has a length of 8.
+
+sentence = input()
+# 🚨 Don't change code above 👆
+# Write your code below 👇
+words = sentence.split()
+result = {word: len(word) for word in words}
+
+print(result)

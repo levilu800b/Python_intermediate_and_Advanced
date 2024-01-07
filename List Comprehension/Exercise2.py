@@ -1,4 +1,5 @@
-# Instructions In this list comprehension exercise you will practice using list comprehension to filter out the even
+# Instructions
+# In this list comprehension exercise you will practice using list comprehension to filter out the even
 # numbers from a series of numbers.
 #
 # First, use list comprehension to convert the list_of_strings to a list of integers.

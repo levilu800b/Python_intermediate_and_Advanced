@@ -16,11 +16,16 @@ my_label.config(text="New Text")
 # Button
 def button_clicked():
     print("I got clicked")
-    my_label.config(text="Button Got Clicked")
+    new_text = input.get()
+    my_label.config(text=new_text)
 
 
 button = Button(text="Click Me", command=button_clicked)
 button.pack()
 
+# Entry
+input = Entry(width=10)
+input.pack()
+print(input.get())
 
 window.mainloop()

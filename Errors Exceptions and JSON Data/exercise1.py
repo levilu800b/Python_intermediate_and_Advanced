@@ -9,7 +9,8 @@
 # Use what you've learnt about exception handling to prevent the program from crashing. If the user enters
 # something that is out of range just print a default output of "Fruit pie".
 #
-# Example Input ["Apple", "Pear", "Orange"] Example Output Fruit pie
+# Example Input
+# ["Apple", "Pear", "Orange"] Example Output Fruit pie
 # IMPORTANT:
 # The exception handling should NOT
 # allow each fruit to be printed when there is an exception. e.g. it should not print out Apple pie, Pear pie and
